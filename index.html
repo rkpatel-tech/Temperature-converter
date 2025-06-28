@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="converter">
+    <h2>🌡️ Temp Converter</h2>
+
+    <input type="number" id="tempInput" placeholder="Your temp goes here❄️ " />
+
+    <select id="unitSelect">
+      <option value="celsius">Celsius (°C)</option>
+      <option value="fahrenheit">Fahrenheit (°F)</option>
+      <option value="kelvin">Kelvin (K)</option>
+    </select>
+    <button onclick="convertTemperature()">Convert</button>
+    <div class="result" id="resultDisplay"></div>
+    <footer>
+      <div>
+        Connect with me:
+        <a href="https://github.com/rkpatel-tech" target="_blank">GitHub</a>
+        <div><a>© 2025 Rahul Patel. All rights reserved.</a></div>
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
